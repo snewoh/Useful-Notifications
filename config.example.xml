@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<s>
+	<Company>
+		<AdminEmail>itsupport@Company.com</AdminEmail>
+		<CompanyShortName>Company</CompanyShortName>
+		<WebmailLink>https://webmail.Company.com/owa</WebmailLink>
+		<SenderName>Company IT Support</SenderName>
+		<SupportPhone>12 3456 7890</SupportPhone>
+		<EmailContent>PasswordChangeEmail.txt</EmailContent>
+	</Company>
+	<Email>
+		<SMTPServer>smtp.Company.com</SMTPServer>
+		<Port>25</Port>
+		<FromEmail>itsupport@Company.com</FromEmail>
+	</Email>
+	<WarningLevel>
+		<Warning>14</Warning>
+		<Urgent>3</Urgent>
+		<Critical>1</Critical>
+	</WarningLevel>
+	<TestMode>true</TestMode>
+	<NotifyEmail>True</NotifyEmail>
+	<NotifySlack>True</NotifySlack>
+	<Slack>
+		<Channel>#Company</Channel>
+		<IconEmoji>:padlock:</IconEmoji>
+		<UserName>Password Expiry</UserName>
+		<WebHook>https://hooks.slack.com/services/xxxxxx/xxxxxxxxxxx/xxxxxxxxxxxx</WebHook>
+	</Slack>
+</s>
